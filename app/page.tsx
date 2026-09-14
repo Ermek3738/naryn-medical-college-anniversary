@@ -1,7 +1,6 @@
 import { SiteHeader } from "@/components/site-header"
 import { Hero } from "@/components/sections/hero"
 import { Invitation } from "@/components/sections/invitation"
-import { History } from "@/components/sections/history"
 import { Program } from "@/components/sections/program"
 import { Venues } from "@/components/sections/venues"
 import { Gallery } from "@/components/sections/gallery"
@@ -15,7 +14,6 @@ export default function Page() {
       <main>
         <Hero />
         <Invitation />
-        <History />
         <Program />
         <Venues />
         <Gallery />

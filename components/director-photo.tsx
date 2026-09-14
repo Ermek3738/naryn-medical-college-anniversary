@@ -4,8 +4,8 @@ import { useEffect, useRef, useState } from "react"
 import { User } from "lucide-react"
 
 /**
- * Renders the director's photo from /images/director.jpg.
- * Drop the real photo at public/images/director.jpg — no code change needed.
+ * Renders the director's photo from /images/director1.jpeg.
+ * Drop the real photo at public/images/director1.jpeg — no code change needed.
  * The provided photo is used as-is and never regenerated or altered.
  */
 export function DirectorPhoto({ alt, className = "" }: { alt: string; className?: string }) {
@@ -33,7 +33,7 @@ export function DirectorPhoto({ alt, className = "" }: { alt: string; className?
     // eslint-disable-next-line @next/next/no-img-element
     <img
       ref={imgRef}
-      src="/images/director.jpg"
+      src="/images/director1.jpeg"
       alt={alt}
       className={`object-cover ${className}`}
       onError={() => setFailed(true)}
