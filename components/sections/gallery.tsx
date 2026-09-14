@@ -9,6 +9,9 @@ import { ImageIcon } from "lucide-react"
 /* Add new photos here — path + alt text. They lay out automatically. */
 const photos: { src: string; alt: string }[] = [
   { src: "/images/building.png", alt: "Нарын медициналык колледжи" },
+  { src: "/images/1.jpg", alt: "Нарын медициналык колледжи" },
+  { src: "/images/2.jpg", alt: "Нарын медициналык колледжи" },
+  { src: "/images/3.jpg", alt: "Нарын медициналык колледжи" },
 ]
 
 export function Gallery() {
