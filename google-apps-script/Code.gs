@@ -9,6 +9,10 @@ const HEADERS = [
   "guests",
 ]
 
+function doGet() {
+  return response({ ok: true, message: "RSVP webhook is online" })
+}
+
 function doPost(e) {
   try {
     const data = JSON.parse(e.postData.contents)
