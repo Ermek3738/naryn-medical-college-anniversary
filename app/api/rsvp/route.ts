@@ -43,6 +43,28 @@ function isValid(body: Partial<RsvpPayload>): body is RsvpPayload {
   )
 }
 
+async function postToWebhook(url: string, record: object) {
+  let currentUrl = url
+  const body = JSON.stringify(record)
+
+  for (let attempt = 0; attempt < 3; attempt += 1) {
+    const response = await fetch(currentUrl, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body,
+      redirect: "manual",
+    })
+
+    if (response.status < 300 || response.status >= 400) return response
+
+    const location = response.headers.get("location")
+    if (!location) return response
+    currentUrl = new URL(location, currentUrl).toString()
+  }
+
+  throw new Error("webhook_redirect_limit")
+}
+
 export async function POST(request: Request) {
   let body: Partial<RsvpPayload>
   try {
@@ -73,11 +95,7 @@ export async function POST(request: Request) {
   }
 
   try {
-    const response = await fetch(webhook, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(record),
-    })
+    const response = await postToWebhook(webhook, record)
 
     if (!response.ok) {
       console.error("Google Sheets webhook returned", response.status)
