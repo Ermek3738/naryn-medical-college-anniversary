@@ -10,8 +10,8 @@ import { ImageIcon } from "lucide-react"
 const photos: { src: string; alt: string }[] = [
   { src: "/images/building.png", alt: "Нарын медициналык колледжи" },
   { src: "/images/1.jpg", alt: "Нарын медициналык колледжи" },
-  { src: "/images/2.jpg", alt: "Нарын медициналык колледжи" },
-  { src: "/images/3.jpg", alt: "Нарын медициналык колледжи" },
+  { src: "/images/2.jpeg", alt: "Нарын медициналык колледжи" },
+  { src: "/images/3.jpeg", alt: "Нарын медициналык колледжи" },
 ]
 
 export function Gallery() {
