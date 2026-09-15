@@ -44,7 +44,7 @@ export function Gallery() {
                   <img
                     src={p.src || "/placeholder.svg"}
                     alt={p.alt}
-                    className="h-full w-full object-cover transition-transform duration-700 hover:scale-105"
+                    className="h-full w-full bg-black/10 object-contain transition-transform duration-700 hover:scale-[1.02]"
                   />
                 ) : (
                   <div className="flex flex-col items-center gap-2 p-3 text-center text-white/40">
