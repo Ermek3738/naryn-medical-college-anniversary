@@ -33,8 +33,8 @@ export const venues: Venue[] = [
   },
   {
     id: "saltanat",
-    name: { ky: "«Saltanat Hall»", ru: "«Saltanat Hall»" },
-    mapUrl: "https://2gis.kg/naryn/search/Saltanat%20Hall",
+    name: { ky: "«Маарек» ресто-чайханасы", ru: "Ресто-чайхана «Маарек»" },
+    mapUrl: "https://go.2gis.com/FVwZz",
   },
   {
     id: "theatre",
@@ -74,7 +74,7 @@ export const program: ProgramDay[] = [
         time: "12:00",
         title: { ky: "Конокторду тосуп алуу жана каттоо", ru: "Встреча и регистрация гостей" },
       },
-      { time: "13:30", title: { ky: "Экскурсия", ru: "Экскурсия" } },
+      { time: "13:30", title: { ky: "Колледждин материалдык-техникалык базасы менен таанышуу", ru: "Ознакомление с материально-технической базой колледжа" } },
       {
         time: "15:30",
         title: { ky: "Тегерек стол", ru: "Круглый стол" },
@@ -99,7 +99,7 @@ export const program: ProgramDay[] = [
       {
         time: "12:00",
         title: { ky: "Түшкү тамактануу", ru: "Обед" },
-        venue: { ky: "«Saltanat Hall» ресторан", ru: "Ресторан «Saltanat Hall»" },
+        venue: { ky: "«Маарек» ресто-чайханасы", ru: "Ресто-чайхана «Маарек»" },
       },
       {
         time: "14:00",
