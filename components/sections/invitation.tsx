@@ -43,6 +43,9 @@ export function Invitation() {
                 alt={t.invitation.directorAlt[lang]}
                 className="aspect-[3/4] w-full rounded-xl object-cover shadow-xl"
               />
+              <figcaption className="mt-4 text-center font-serif text-lg font-semibold text-[color:var(--color-navy)]">
+                Арпачиева Төлөгүл Батыркановна
+              </figcaption>
             </figure>
           </Reveal>
         </div>

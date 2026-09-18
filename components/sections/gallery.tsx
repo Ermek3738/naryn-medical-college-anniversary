@@ -13,8 +13,13 @@ const photos: { src: string; alt: string }[] = [
   { src: "/images/1.jpg", alt: "Нарын медициналык колледжи" },
   { src: "/images/2.jpeg", alt: "Нарын медициналык колледжи" },
   { src: "/images/3.jpeg", alt: "Нарын медициналык колледжи" },
-  { src: "/images/4.jpeg", alt: "Нарын медициналык колледжи" },
+  { src: "/images/4.jpg", alt: "Нарын медициналык колледжи" },
   { src: "/images/5.jpeg", alt: "Нарын медициналык колледжи" },
+  { src: "/images/6.jpg", alt: "Нарын медициналык колледжи" },
+  { src: "/images/7.jpg", alt: "Нарын медициналык колледжи" },
+  { src: "/images/8.jpg", alt: "Нарын медициналык колледжи" },
+  { src: "/images/9.jpg", alt: "Нарын медициналык колледжи" },
+   { src: "/images/10.jpg", alt: "Нарын медициналык колледжи" },
 ]
 
 export function Gallery() {
