@@ -19,7 +19,7 @@ const photos: { src: string; alt: string }[] = [
   { src: "/images/7.jpg", alt: "Нарын медициналык колледжи" },
   { src: "/images/8.jpg", alt: "Нарын медициналык колледжи" },
   { src: "/images/9.jpg", alt: "Нарын медициналык колледжи" },
-   { src: "/images/10.jpg", alt: "Нарын медициналык колледжи" },
+   { src: "/images/10.jpeg", alt: "Нарын медициналык колледжи" },
 ]
 
 export function Gallery() {
