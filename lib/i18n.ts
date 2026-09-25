@@ -27,11 +27,6 @@ export const venues: Venue[] = [
     mapUrl: "https://2gis.kg/naryn/search/Naryn%20Medical%20College",
   },
   {
-    id: "ordo",
-    name: { ky: "«Ордо» этно ресторан", ru: "Этно-ресторан «Ордо»" },
-    mapUrl: "https://2gis.kg/naryn/search/Ordo",
-  },
-  {
     id: "saltanat",
     name: { ky: "«Маарек» ресто-чайханасы", ru: "Ресто-чайхана «Маарек»" },
     mapUrl: "https://go.2gis.com/FVwZz",
