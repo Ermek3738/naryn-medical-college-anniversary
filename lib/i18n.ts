@@ -42,7 +42,7 @@ export const venues: Venue[] = [
   {
     id: "khan-tengri",
     name: { ky: "«Хан-Теңири» ресторан", ru: "Ресторан «Хан-Тенгри»" },
-    mapUrl: "https://2gis.kg/naryn/search/Khan%20Tengri",
+    mapUrl: "https://2gis.kg/bishkek/geo/70000001078771243",
   },
 ]
 
