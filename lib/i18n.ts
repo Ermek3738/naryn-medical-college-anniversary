@@ -14,17 +14,17 @@ export const venues: Venue[] = [
   {
     id: "college",
     name: { ky: "Нарын медициналык колледжи", ru: "Нарынский медицинский колледж" },
-    mapUrl: "https://2gis.kg/naryn/search/Naryn%20Medical%20College",
+    mapUrl: "https://2gis.kg/bishkek/geo/70000001079089773",
   },
   {
     id: "meeting-hall",
     name: { ky: "Жыйындар залы", ru: "Зал заседаний" },
-    mapUrl: "https://2gis.kg/naryn/search/Naryn%20Medical%20College",
+    mapUrl: "https://2gis.kg/bishkek/geo/70000001079089773",
   },
   {
     id: "assembly-hall",
     name: { ky: "Актовый зал", ru: "Актовый зал" },
-    mapUrl: "https://2gis.kg/naryn/search/Naryn%20Medical%20College",
+    mapUrl: "https://2gis.kg/bishkek/geo/70000001079089773",
   },
   {
     id: "saltanat",
@@ -37,7 +37,7 @@ export const venues: Venue[] = [
       ky: "М. Рыскулов атындагы академиялык музыкалык драма театры",
       ru: "Академический музыкально-драматический театр им. М. Рыскулова",
     },
-    mapUrl: "https://2gis.kg/naryn/search/%D0%9C.%20%D0%A0%D1%8B%D1%81%D0%BA%D1%83%D0%BB%D0%BE%D0%B2%20%D1%82%D0%B5%D0%B0%D1%82%D1%80",
+    mapUrl: "https://2gis.kg/bishkek/geo/70000001078840693",
   },
   {
     id: "khan-tengri",
